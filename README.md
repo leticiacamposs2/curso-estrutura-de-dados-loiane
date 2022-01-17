@@ -1,5 +1,5 @@
-# ☕ Curso Estrutura de Dados com Java by @loiane.training
-Repositório com as aulas e exercícios do curso de Estrutura de Dados com Java da [loiane.training](https://loiane.training/curso/estrutura-de-dados)
+# ☕ Curso estrutura de dados com Java by @loiane.training
+Repositório com as aulas e exercícios do curso de estrutura de dados com Java da [loiane.training](https://loiane.training/curso/estrutura-de-dados)
 
 ![java-logo](https://s2.glbimg.com/q-0B1SbZWYgxxnLwsf6dbXgivj4=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg)
 
