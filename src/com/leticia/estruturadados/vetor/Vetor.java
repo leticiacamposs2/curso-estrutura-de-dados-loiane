@@ -35,10 +35,7 @@ public class Vetor {
 	// B C E F G + +
 	//
 	public boolean adiciona(int posicao, String elemento) {
-		if (!(posicao >= 0 && posicao < tamanho)) {	
-			throw new IllegalArgumentException("Posição inválida");
-		}
-		
+		posicaoInvalida(posicao);
 		this.aumentaCapacidade();
 		
 		for (int i=this.tamanho-1; i>=posicao; i--) {
@@ -72,12 +69,29 @@ public class Vetor {
 	}
 	
 	public String busca(int posicao) {
+		posicaoInvalida(posicao);
+		return this.elementos[posicao];
+	}
+	
+	// B G D E F -> posição a ser removida é 1 (G)
+	// 0 1 2 3 4 -> tamanho é 5
+	// vetor[1] = vetor[2]
+	// vetor[2] = vetor[3]
+	// vetor[3] = vetor[4]
+	public void remove(int posicao) {
+		posicaoInvalida(posicao);
+		
+		for (int i=posicao; i<this.tamanho-1; i++) {
+			this.elementos[i] = this.elementos[i+1];
+		}
+	}
+	
+	private void posicaoInvalida(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {	
 			throw new IllegalArgumentException("Posição inválida");
 		}
-
-		return this.elementos[posicao];
 	}
+	
 	
 	public int busca(String elemento) {
 		for (int i=0; i<this.tamanho; i++) {
