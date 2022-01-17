@@ -20,9 +20,9 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 03: Adicionar elemento no final do vetor
 - [x] 04: Verificar tamanho e imprimir elementos do vetor
 - [x] 05: Obter elemento de uma posição
-- [ ] 06: Verificar se elemento existe no vetor (busca sequencial)
-- [ ] 07: Adicionar elemento em qualquer posição
-- [ ] 08: Aumentar capacidade do vetor
+- [x] 06: Verificar se elemento existe no vetor (busca sequencial)
+- [x] 07: Adicionar elemento em qualquer posição
+- [x] 08: Aumentar capacidade do vetor
 - [ ] 09: Remover elemento do vetor
 - [ ] 10: Generalizar o tipo do vetor
 - [ ] 11: Configurar o tipo do vetor dinamicamente (Generics)
