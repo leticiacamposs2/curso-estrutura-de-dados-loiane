@@ -26,7 +26,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 09: Remover elemento do vetor
 - [x] 10: Generalizar o tipo do vetor
 - [x] 11: Configurar o tipo do vetor dinamicamente (Generics)
-- [ ] 12: API Java: ArrayList
+- [x] 12: API Java: ArrayList
 - [ ] 13: Exer 01 método contém
 - [ ] 14: Exer 02 método último indice
 - [ ] 15: Exer 03 método remove elemento
