@@ -1,18 +1,23 @@
 package com.leticia.estruturadados.vetor;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
 
-public class VetorObjetos {
-	
-	private Object[] elementos;
+public class Lista<T> {
+
+	private T[] elementos;
 	public int tamanho;
 	
-	public VetorObjetos(int capacidade) {
-		this.elementos = new Object[capacidade];
+	public Lista(int capacidade) {
+		this.elementos = (T[]) new Object[capacidade]; //solução do livro effective java
 		this.tamanho = 0;
 	}
 	
-	public boolean adiciona(Object elemento) {
+	public Lista(int capacidade, Class<T> tipoClasse) {
+		this.elementos = (T[]) Array.newInstance(tipoClasse, capacidade);
+		this.tamanho = 0;
+	}
+		
+	public boolean adiciona(T elemento) {
 		this.aumentaCapacidade();
 		if (this.tamanho < this.elementos.length){
 			this.elementos[this.tamanho] = elemento;
@@ -25,7 +30,7 @@ public class VetorObjetos {
 	// 0 1 2 3 4 5 6 = tamanho é 5
 	// B C E F G + +
 	//
-	public boolean adiciona(int posicao, Object elemento) {
+	public boolean adiciona(int posicao, T elemento) {
 		posicaoInvalida(posicao);
 		this.aumentaCapacidade();
 		
@@ -41,7 +46,7 @@ public class VetorObjetos {
 	
 	private void aumentaCapacidade() {
 		if (this.tamanho == this.elementos.length) {
-			Object[] elementosNovos = new Object[this.elementos.length*2];
+			T[] elementosNovos = (T[]) new Object[this.elementos.length*2];
 			for (int i=0; i<this.elementos.length; i++) {
 				elementosNovos[i] = this.elementos[i];
 			}
@@ -49,12 +54,12 @@ public class VetorObjetos {
 		}
 	}
 	
-	public Object busca(int posicao) {
+	public T busca(int posicao) {
 		posicaoInvalida(posicao);
 		return this.elementos[posicao];
 	}
 	
-	public int busca(Object elemento) {
+	public int busca(T elemento) {
 		for (int i=0; i<this.tamanho; i++) {
 			if (this.elementos[i].equals(elemento)) {
 				return i;
