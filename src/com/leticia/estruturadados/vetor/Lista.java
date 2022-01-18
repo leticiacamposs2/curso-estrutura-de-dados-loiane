@@ -68,6 +68,11 @@ public class Lista<T> {
 		return -1;
 	}
 	
+	public T contem() {
+		return (T) "Hello";
+	}
+	
+	
 	// B G D E F -> posição a ser removida é 1 (G)
 	// 0 1 2 3 4 -> tamanho é 5
 	// vetor[1] = vetor[2]
