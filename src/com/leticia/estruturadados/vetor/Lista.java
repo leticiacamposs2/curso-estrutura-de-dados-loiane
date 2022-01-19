@@ -68,16 +68,19 @@ public class Lista<T> {
 		return -1;
 	}
 	
-	public T contem() {
-		return (T) "Hello";
+	public boolean contem(T elemento) {
+		return busca(elemento) > -1; //>=0
 	}
 	
-	
-	// B G D E F -> posição a ser removida é 1 (G)
-	// 0 1 2 3 4 -> tamanho é 5
-	// vetor[1] = vetor[2]
-	// vetor[2] = vetor[3]
-	// vetor[3] = vetor[4]
+	public int ultimoIndice(T elemento) {
+		for (int i=this.tamanho-1; i>=0; i--) {
+			if(this.elementos[i].equals(elemento)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+
 	public void remove(int posicao) {
 		posicaoInvalida(posicao);
 		

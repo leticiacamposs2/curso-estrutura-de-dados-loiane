@@ -27,8 +27,8 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 10: Generalizar o tipo do vetor
 - [x] 11: Configurar o tipo do vetor dinamicamente (Generics)
 - [x] 12: API Java: ArrayList
-- [ ] 13: Exer 01 método contém
-- [ ] 14: Exer 02 método último indice
+- [x] 13: Exer 01 método contém
+- [x] 14: Exer 02 método último indice
 - [ ] 15: Exer 03 método remove elemento
 - [ ] 16: Exer 04 método obtém (get)
 - [ ] 17: Exer 05 método remover todos elementos (clear)

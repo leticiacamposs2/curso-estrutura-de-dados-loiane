@@ -38,6 +38,13 @@ public class Aula13 {
 			System.out.println("Elemento não existe no array" + pos);
 		}
 		
+		pos = arrayList.lastIndexOf("C");
+		if (pos > -1) {			
+			System.out.println("ULTIMO INDICE - Elemento existe no array" + pos);
+		} else {
+			System.out.println("ULTIMO INDICE - Elemento não existe no array" + pos);
+		}
+		
 		System.out.println(arrayList.get(2));
 		
 		System.out.println(arrayList);
