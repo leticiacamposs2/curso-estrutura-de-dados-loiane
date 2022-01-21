@@ -29,10 +29,10 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 12: API Java: ArrayList
 - [x] 13: Exer 01 método contém
 - [x] 14: Exer 02 método último indice
-- [ ] 15: Exer 03 método remove elemento
-- [ ] 16: Exer 04 método obtém (get)
-- [ ] 17: Exer 05 método remover todos elementos (clear)
-- [ ] 18: Exer 06 Contatos - Lista
+- [x] 15: Exer 03 método remove elemento
+- [x] 16: Exer 04 método obtém (get)
+- [x] 17: Exer 05 método remover todos elementos (clear)
+- [x] 18: Exer 06 Contatos - Lista
 - [ ] 19: Exer 07 Contatos - ArrayList
 
 ***

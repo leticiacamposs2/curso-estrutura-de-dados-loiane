@@ -27,9 +27,6 @@ public class Lista<T> {
 		return false;
 	}
 	
-	// 0 1 2 3 4 5 6 = tamanho é 5
-	// B C E F G + +
-	//
 	public boolean adiciona(int posicao, T elemento) {
 		posicaoInvalida(posicao);
 		this.aumentaCapacidade();
@@ -69,7 +66,11 @@ public class Lista<T> {
 	}
 	
 	public boolean contem(T elemento) {
-		return busca(elemento) > -1; //>=0
+		return busca(elemento) > -1;
+	}
+	
+	public T obtem(int posicao) {
+		return busca(posicao);
 	}
 	
 	public int ultimoIndice(T elemento) {
@@ -89,12 +90,16 @@ public class Lista<T> {
 		}
 	}
 	
+	public void remove(T elemento) {
+		int indice = busca(elemento);
+		if (indice > -1) this.remove(indice);
+	}
+		
 	private void posicaoInvalida(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {	
 			throw new IllegalArgumentException("Posição inválida");
 		}
 	}
-	
 	
 	public int busca(String elemento) {
 		for (int i=0; i<this.tamanho; i++) {
@@ -108,7 +113,11 @@ public class Lista<T> {
 	public int tamanho() {
 		return this.tamanho;
 	}
-		
+	
+	public void limpar() {
+		this.tamanho = 0;
+	}
+	
 	@Override
 	public String toString() {
 		

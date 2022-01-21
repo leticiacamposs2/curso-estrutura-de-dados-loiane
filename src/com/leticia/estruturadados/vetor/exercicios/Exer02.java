@@ -17,5 +17,4 @@ public class Exer02 {
 		
 		System.out.println(lista.ultimoIndice("A"));
 	}
-
 }
