@@ -6,8 +6,8 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 
 ## Aulas
 
-- [ ] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
-- [ ] Pilhas
+- [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
+- [ ] [Pilhas](#pilhas)
 - [ ] Filas
 
 ***
@@ -33,7 +33,27 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 16: Exer 04 método obtém (get)
 - [x] 17: Exer 05 método remover todos elementos (clear)
 - [x] 18: Exer 06 Contatos - Lista
-- [ ] 19: Exer 07 Contatos - ArrayList
+- [X] 19: Exer 07 Contatos - ArrayList
 
 ***
 
+<div id="pilhas" />
+
+### Pilhas
+
+- [ ] 01: Pilhas: Introdução
+- [ ] 02: Empilhar elemento (push)
+- [ ] 03: Verificar se pilha está vazia
+- [ ] 04: Espiar/Verificar elemento do topo (peek)
+- [ ] 05: Desempilhar elemento (pop)
+- [ ] 06: API Java:Stack
+- [ ] 07: Empilha e desempilha
+- [ ] 08: Pilhas par ou ímpar
+- [ ] 09: Pilha de Livros
+- [ ] 10: Stack de Livros
+- [ ] 11: Desafio do Palíndromo
+- [ ] 12: Desafio dos símbolos balanceados
+- [ ] 13: Desafio conversão decimal-binário
+- [ ] 14: Desafio Torre de Hanoi
+
+***
