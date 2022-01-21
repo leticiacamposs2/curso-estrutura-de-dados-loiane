@@ -1,10 +1,10 @@
-# ☕ Curso estrutura de dados com Java by @loiane.training
+## ☕ Curso estrutura de dados com Java by @loiane.training
 Repositório com as aulas e exercícios do curso de estrutura de dados com Java da [loiane.training](https://loiane.training/curso/estrutura-de-dados)
 
 ![java-logo](https://s2.glbimg.com/q-0B1SbZWYgxxnLwsf6dbXgivj4=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg)
 
 
-## Aulas ( 📚 )
+### Aulas ( 📚 )
 
 - [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
 - [ ] [Pilhas](#pilhas)
@@ -13,7 +13,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 ***
 <div id="vetores-arrays-e-listas" />
 
-### Vetores, Arrays e Listas ( 💥 )
+#### Vetores, Arrays e Listas ( 💥 )
 
 - [x] 01: Introdução a Estrutura de Dados e Algoritmos
 - [x] 02: Vetores e Arrays: Introdução
@@ -39,7 +39,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 
 <div id="pilhas" />
 
-### Pilhas ( 🔋 )
+#### Pilhas ( 🔋 )
 
 - [ ] 01: Pilhas: Introdução
 - [ ] 02: Empilhar elemento (push)
