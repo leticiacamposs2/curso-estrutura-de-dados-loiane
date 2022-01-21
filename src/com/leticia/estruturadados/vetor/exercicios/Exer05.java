@@ -7,7 +7,7 @@ import com.leticia.estruturadados.vetor.Lista;
  * onde todos os elementos da lista são removidos. 
  * Esse método é semelhante ao método clear da classe ArrayList.
  */
-public class Exer5 {
+public class Exer05 {
 
 	public static void main(String[] args) {
 		

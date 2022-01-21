@@ -14,7 +14,7 @@ import com.leticia.estruturadados.vetor.teste.Contato;
  * 3. Crie um exemplo para utilizar cada método da classe Lista;
  */
 
-public class Exer6 {
+public class Exer06 {
 
 	public static void main(String[] args) {
 
