@@ -5,6 +5,7 @@ public class EstruturaEstatica<T> {
 	protected T[] elementos;
 	protected int tamanho;
 	
+	@SuppressWarnings("unchecked")
 	public EstruturaEstatica(int capacidade) {
 		this.elementos = (T[]) new Object[capacidade];
 		this.tamanho = 0;
@@ -12,6 +13,10 @@ public class EstruturaEstatica<T> {
 	
 	public EstruturaEstatica() {
 		this(10);
+	}
+	
+	public boolean estaVazia() {
+		return this.tamanho == 0;
 	}
 	
 	protected boolean adiciona(T elemento) {

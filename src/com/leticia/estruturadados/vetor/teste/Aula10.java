@@ -16,7 +16,8 @@ public class Aula10 {
 		vetor.adiciona(c1);
 		vetor.adiciona(c2);
 		vetor.adiciona(c3);
-		
+		vetor.adiciona(c4);
+
 		System.out.println("Tamanho = " + vetor.tamanho());
 		
 		int pos = vetor.busca(c1);

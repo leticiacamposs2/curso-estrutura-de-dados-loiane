@@ -7,11 +7,13 @@ public class Lista<T> {
 	private T[] elementos;
 	public int tamanho;
 	
+	@SuppressWarnings("unchecked")
 	public Lista(int capacidade) {
-		this.elementos = (T[]) new Object[capacidade]; //solução do livro effective java
+		this.elementos = (T[]) new Object[capacidade]; //solucao do livro effective java
 		this.tamanho = 0;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public Lista(int capacidade, Class<T> tipoClasse) {
 		this.elementos = (T[]) Array.newInstance(tipoClasse, capacidade);
 		this.tamanho = 0;
@@ -41,6 +43,7 @@ public class Lista<T> {
 		return false;
 	}
 	
+	@SuppressWarnings("unchecked")
 	private void aumentaCapacidade() {
 		if (this.tamanho == this.elementos.length) {
 			T[] elementosNovos = (T[]) new Object[this.elementos.length*2];

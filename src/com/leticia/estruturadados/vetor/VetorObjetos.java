@@ -1,7 +1,5 @@
 package com.leticia.estruturadados.vetor;
 
-import java.util.Arrays;
-
 public class VetorObjetos {
 	
 	private Object[] elementos;
