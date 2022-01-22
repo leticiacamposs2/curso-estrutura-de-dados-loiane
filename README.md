@@ -8,7 +8,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 
 - [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
 - [ ] [Pilhas](#pilhas)
-- [ ] [Filas](#filas)
+- [ ] Filas
 
 ***
 <div id="vetores-arrays-e-listas" />
@@ -55,19 +55,5 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [ ] 12: Desafio dos símbolos balanceados
 - [ ] 13: Desafio conversão decimal-binário
 - [ ] 14: Desafio Torre de Hanoi
-
-***
-
-<div id="filas" />
-
-#### Filas ( 🧍🧍🧍 )
-
-- [ ] 01: Filas: Introdução
-- [ ] 02: Enfileirar (adicionar) elemento (enqueue)
-- [ ] 03: Espiar/Verificar elemento início da fila (peek)
-- [ ] 04: Desenfileirar (remover) elemento da fila (dequeue)
-- [ ] 05: API Java: Queue
-- [ ] 06: Filas com Prioridade
-- [ ] 07: API Java: PriorityQueue
 
 ***
