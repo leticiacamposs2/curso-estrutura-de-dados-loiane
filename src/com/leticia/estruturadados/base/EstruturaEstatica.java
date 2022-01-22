@@ -2,8 +2,8 @@ package com.leticia.estruturadados.base;
 
 public class EstruturaEstatica<T> {
 
-	private T[] elementos;
-	public int tamanho;
+	protected T[] elementos;
+	protected int tamanho;
 	
 	public EstruturaEstatica(int capacidade) {
 		this.elementos = (T[]) new Object[capacidade];
@@ -38,6 +38,7 @@ public class EstruturaEstatica<T> {
 		return false;
 	}
 	
+	@SuppressWarnings("unchecked")
 	private void aumentaCapacidade() {
 		if (this.tamanho == this.elementos.length) {
 			T[] elementosNovos = (T[]) new Object[this.elementos.length*2];
@@ -51,6 +52,14 @@ public class EstruturaEstatica<T> {
 	private void posicaoInvalida(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {	
 			throw new IllegalArgumentException("Posição inválida");
+		}
+	}
+	
+	public void remove(int posicao) {
+		posicaoInvalida(posicao);
+		
+		for (int i=posicao; i<this.tamanho-1; i++) {
+			this.elementos[i] = this.elementos[i+1];
 		}
 	}
 	
