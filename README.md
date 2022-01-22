@@ -45,8 +45,8 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 02: Empilhar elemento (push)
 - [x] 03: Verificar se pilha está vazia
 - [x] 04: Espiar/Verificar elemento do topo (peek)
-- [ ] 05: Desempilhar elemento (pop)
-- [ ] 06: API Java:Stack
+- [x] 05: Desempilhar elemento (pop)
+- [x] 06: API Java:Stack
 - [ ] 07: Empilha e desempilha
 - [ ] 08: Pilhas par ou ímpar
 - [ ] 09: Pilha de Livros
