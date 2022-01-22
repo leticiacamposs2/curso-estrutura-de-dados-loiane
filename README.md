@@ -51,7 +51,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 08: Pilhas par ou ímpar
 - [x] 09: Pilha de Livros
 - [x] 10: Stack de Livros
-- [ ] 11: Desafio do Palíndromo
+- [x] 11: Desafio do Palíndromo
 - [ ] 12: Desafio dos símbolos balanceados
 - [ ] 13: Desafio conversão decimal-binário
 - [ ] 14: Desafio Torre de Hanoi
