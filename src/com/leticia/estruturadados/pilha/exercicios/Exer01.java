@@ -13,7 +13,6 @@ import com.leticia.estruturadados.pilha.Pilha;
  * - Se ao final do programa a pilha não estiver vazia, 
  * desempilhe todos os elementos, imprimindo-os na tela
  */
-
 public class Exer01 {
 
 	@SuppressWarnings("resource")
