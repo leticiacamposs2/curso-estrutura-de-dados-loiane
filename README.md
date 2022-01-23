@@ -65,7 +65,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x1] 01: Filas: Introdução
 - [x] 02: Enfileirar (adicionar) elemento (enqueue)
 - [x] 03: Espiar/Verificar elemento início da fila (peek)
-- [ ] 04: Desenfileirar (remover) elemento da fila (dequeue)
+- [x] 04: Desenfileirar (remover) elemento da fila (dequeue)
 - [ ] 05: API Java: Queue
 - [ ] 06: Filas com Prioridade
 - [ ] 07: API Java: PriorityQueue
