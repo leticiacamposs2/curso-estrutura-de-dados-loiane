@@ -53,8 +53,8 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 10: Stack de Livros
 - [x] 11: Desafio do Palíndromo
 - [x] 12: Desafio dos símbolos balanceados
-- [ ] 13: Desafio conversão decimal-binário
-- [ ] 14: Desafio Torre de Hanoi
+- [x] 13: Desafio conversão decimal-binário
+- [x] 14: Desafio Torre de Hanoi
 
 ***
 
