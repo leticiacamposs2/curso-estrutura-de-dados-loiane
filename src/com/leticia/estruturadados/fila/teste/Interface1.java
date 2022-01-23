@@ -1,4 +1,4 @@
-package com.leticia.estruturadados.fila.exercicios;
+package com.leticia.estruturadados.fila.teste;
 
 public interface Interface1 {
 	

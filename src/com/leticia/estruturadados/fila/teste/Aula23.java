@@ -1,9 +1,9 @@
-package com.leticia.estruturadados.fila.exercicios;
+package com.leticia.estruturadados.fila.teste;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Exer23 {
+public class Aula23 {
 
 	public static void main(String[] args) {
 		
@@ -16,7 +16,7 @@ public class Exer23 {
 		
 		System.out.println(fila.peek()); //espiar
 
-		System.out.println(fila.remove());	//desenfileira (queue)
+		System.out.println(fila.remove()); //desenfileira (queue)
 		
 		System.out.println(fila);
 	}

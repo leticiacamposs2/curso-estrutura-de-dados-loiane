@@ -1,8 +1,8 @@
-package com.leticia.estruturadados.fila.exercicios;
+package com.leticia.estruturadados.fila.teste;
 
 import com.leticia.estruturadados.fila.Fila;
 
-public class Exer22 {
+public class Aula22 {
 
 	public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package com.leticia.estruturadados.fila.exercicios;
+package com.leticia.estruturadados.fila.teste;
 
 import com.leticia.estruturadados.fila.Fila;
 
-public class Exer20 {
+public class Aula21 {
 
 	public static void main(String[] args) {
 
@@ -16,8 +16,7 @@ public class Exer20 {
 		fila.enfileira("I");
 		fila.enfileira("A");
 		
-		System.out.println(fila.estaVazia());
-		System.out.println(fila.tamanho());
+		System.out.println(fila.espiar());
 		System.out.println(fila.toString());	
 	}
 

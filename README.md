@@ -67,7 +67,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 03: Espiar/Verificar elemento início da fila (peek)
 - [x] 04: Desenfileirar (remover) elemento da fila (dequeue)
 - [x] 05: API Java: Queue
-- [ ] 06: Filas com Prioridade
+- [x] 06: Filas com Prioridade
 - [ ] 07: API Java: PriorityQueue
 
 ***
