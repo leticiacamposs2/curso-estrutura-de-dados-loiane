@@ -3,6 +3,11 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 
 ![java-logo](https://s2.glbimg.com/q-0B1SbZWYgxxnLwsf6dbXgivj4=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg)
 
+Uma estrutura de dados é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente. 
+
+Saber como utilizar e gerenciar estruturas de dados é essencial para qualquer programador. Utilizar a estrutura de dados errada tem como consequência perder performance no programa e até mesmo a saída incorreta.
+
+
 
 ### Aulas ( 📚 )
 
