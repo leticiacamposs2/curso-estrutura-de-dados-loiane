@@ -7,15 +7,16 @@ Uma estrutura de dados é um modo particular de armazenamento e organização de
 
 Saber como utilizar e gerenciar estruturas de dados é essencial para qualquer programador. Utilizar a estrutura de dados errada tem como consequência perder performance no programa e até mesmo a saída incorreta.
 
-
+***
 
 ### Aulas ( 📚 )
 
 - [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
 - [x] [Pilhas](#pilhas)
-- [ ] [Filas](#filas)
+- [x] [Filas](#filas)
 
 ***
+
 <div id="vetores-arrays-e-listas" />
 
 #### Vetores, Arrays e Listas ( 💥 )
