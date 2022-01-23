@@ -13,7 +13,7 @@ public class Exer22 {
 		fila.enfileira("Thomas");
 		fila.enfileira("Renata");
 		
-		System.out.println(fila.to);
+		System.out.println(fila);
 		System.out.println(fila.desenfileira());
 		System.out.println(fila);
 		System.out.println(fila.desenfileira());
