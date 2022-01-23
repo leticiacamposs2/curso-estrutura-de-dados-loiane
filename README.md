@@ -68,7 +68,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [x] 04: Desenfileirar (remover) elemento da fila (dequeue)
 - [x] 05: API Java: Queue
 - [x] 06: Filas com Prioridade
-- [ ] 07: API Java: PriorityQueue
+- [x] 07: API Java: PriorityQueue
 
 ***
 

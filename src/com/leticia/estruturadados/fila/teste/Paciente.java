@@ -28,7 +28,7 @@ public class Paciente implements Comparable<Paciente> {
 	public void setPrioridade(int prioridade) {
 		this.prioridade = prioridade;
 	}
-
+	
 	@Override
 	public int compareTo(Paciente o) {
 		
