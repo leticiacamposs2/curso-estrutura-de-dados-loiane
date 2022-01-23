@@ -71,3 +71,5 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 - [ ] 07: API Java: PriorityQueue
 
 ***
+
+![diagrama-de-classes](https://user-images.githubusercontent.com/34458509/150680997-36405b57-0f88-4a0d-a252-3146053a5773.png)
