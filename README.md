@@ -7,7 +7,7 @@ Repositório com as aulas e exercícios do curso de estrutura de dados com Java 
 ### Aulas ( 📚 )
 
 - [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
-- [ ] [Pilhas](#pilhas)
+- [x] [Pilhas](#pilhas)
 - [ ] [Filas](#filas)
 
 ***
