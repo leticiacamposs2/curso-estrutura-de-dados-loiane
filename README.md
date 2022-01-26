@@ -14,6 +14,7 @@ Saber como utilizar e gerenciar estruturas de dados é essencial para qualquer p
 - [X] [Vetores, Arrays e Listas](#vetores-arrays-e-listas)
 - [x] [Pilhas](#pilhas)
 - [x] [Filas](#filas)
+- [ ] [Lista Encadeada (Lista Ligada)](#lista-encadeada)
 
 ***
 
@@ -75,6 +76,19 @@ Saber como utilizar e gerenciar estruturas de dados é essencial para qualquer p
 - [x] 05: API Java: Queue
 - [x] 06: Filas com Prioridade
 - [x] 07: API Java: PriorityQueue
+
+***
+
+<div id="lista-encadeada" />
+
+#### Lista Encadeada ( 📃 )
+
+- [ ] 01: Lista Encadeada: Introdução
+- [ ] 02: Estrutura Dinâmica
+- [ ] 03: Cada elemento é um nó (célula)
+- [ ] 04: Ponteiros
+- [ ] 05: Referência ao primeiro elemento da lista
+- [ ] 06: Cada nó faz referência ao próximo elemento
 
 ***
 
